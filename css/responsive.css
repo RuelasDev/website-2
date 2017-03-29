@@ -1,0 +1,239 @@
+@media screen and (max-width: 920px) {
+  
+  
+  .overlay {
+  width: 50%;
+}
+  
+  /* HEADER */
+  
+  .nav-menu li {
+    padding: 0 10px;
+  }
+
+  
+  /* ABOUT */
+  
+  .about-flex {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .about-para {
+    width: 90%;
+  }
+  
+  /* FEATURED */
+  
+  .column {
+    width: 50%;
+  }
+  
+  
+  /* OCCASIONS */
+  
+  .occasions-section {
+    padding: 0;
+  }
+  
+  .occ-flex {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  
+  .occ-flex p {
+    width: 90%;
+    padding: 20px 0;
+    margin: auto;
+  }
+  
+  /* GIFTS */
+  
+  .gifts-section p {
+    width: 80%;
+  }
+  
+  /* CONTACT */
+  
+  .contact-flex {
+    flex-direction: column-reverse;
+  }
+  
+  .contact-info {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .contact-flex form {
+    margin: auto;
+    width: 60%;
+      padding-top: 50px;
+    text-align: center;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 765px) {
+  
+  /* HEADER */
+  
+  .nav-menu  {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    padding: 0 25px;
+  }
+  
+  .logo {
+    margin: 0;
+    
+  }
+  
+  .margin {
+    margin: 0;
+  }
+  
+  .logo-text {
+    margin: auto; 
+    justify-content: center; /* fixes centering issues on IE11 and mobile */
+  }
+  
+  .nav-items {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section-header {
+    width: 35%;
+  }
+  
+  /* CONTACT */
+  
+  .section-header-contact {
+    width: 35%;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+  .overlay {
+  width: 90%;
+   margin: 0 auto;
+    right: 0; 
+    left: 0;
+
+}
+  
+  /* HEADER */
+  
+  .nav-menu li {
+    padding: 0 15px;
+  }
+  
+  /* FEATURED */
+  
+  .feat-flex {
+    flex-direction: column;
+  }
+  
+  .column {
+    width: 100%;
+  }
+  
+  /* GIFTS */
+  
+  .gifts-section p {
+    width: 90%;
+  }
+  
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  
+  
+  
+  /* HEADER */
+  
+  .nav-menu ul {
+   background-color: rgba(0, 0, 0, 0.56);;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+   width: 100%;
+    padding: 6px 0;
+  }
+  
+  .closed {
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s ease;
+  }
+  
+  .open {
+    height: 170px;
+  }
+  
+  .main-text {
+    padding-top: 100px;
+  }
+  
+  .section-header {
+    width: 60%;
+  }
+  
+  .mobile-menu {
+    display: block;
+  }
+  
+  /* CONTACT */
+  
+.contact-flex form {
+    width: 90%;
+    padding-left: 30px;
+  text-align: inherit;
+  }
+  
+  .section-header-contact {
+    width: 60%;
+  }
+  
+  .icon {
+  padding: 20px 15px 0;
+}
+  
+}
+
+
+@media screen and (min-width: 1050px) {
+  
+  .occasions-section {
+   background-attachment: fixed;
+  }
+  
+}
+
+/* IE STYLES */
+
+@media screen and (min-width: 1050px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  
+  .occasions-section {
+   background-attachment:scroll;
+ 
+  }
+  
+}

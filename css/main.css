@@ -1,0 +1,283 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(119, 108, 108, 0.68);
+  width: 30%;
+  color: white;
+  height: 290px;
+}
+
+.colmessage {
+  padding-top:  40px;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(../img/Flower-Basket.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.mobile-menu {
+  padding-left: 20px;
+  width: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+.margin {
+  margin-right: auto;
+}
+
+.nav-menu {
+  display: flex;
+  padding-top: 10px;
+
+}
+
+.nav-items {
+  padding: 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+}
+
+.logo-text {
+  display: flex;
+  font-size: 2em;
+  font-family: 'Bad Script', cursive;
+}
+
+.nav-menu li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 0 25px;
+}
+
+.nav-menu li:hover {
+  color: lightcoral;
+}
+
+.main-text {
+  padding-top: 150px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+.main-text p {
+  font-size: 1.25em;
+}
+
+/* ABOUT */
+
+.about-section {
+   padding-bottom: 30px;
+}
+
+
+.section-header {
+ 
+  width: 25%;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: 2px solid black;
+  
+}
+
+.flower-shop {
+  width: 450px;
+  max-width: 90%;
+  align-self: center;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-para {
+  width: 40%;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FEATURED */
+
+.featured-section {
+ 
+}
+
+.feat-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  width: 30%;
+  text-align: center;
+}
+
+.feat-items {
+  width: 250px;
+  align-self: center;
+}
+
+
+
+/* OCCASIONS */
+
+.occasions-section {
+  background-image: url(../img/Flower-Field.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+  padding-bottom: 100px;
+}
+
+.occ-flex {
+  display: flex;
+  padding-top: 50px;
+justify-content: center; 
+}
+
+.occasions-section h1 {
+    padding-top: 20px;
+  }
+  
+
+.occasions-section p {
+    width: 40%;
+    line-height: 1.5;
+  padding: 0 25px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.flower-couple {
+  width: 350px;
+  max-width: 90%;
+  align-self: center;
+  border: 2px solid #ffc0cb;
+}
+
+/* GIFTS */
+
+.gifts-section {
+  padding-bottom: 30px;
+}
+
+.gift-basket {
+  width: 450px;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.gifts-section h2 {
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+}
+
+.gifts-section p {
+  width: 60%;
+  line-height: 1.5;
+  margin: auto;
+  padding-top: 25px;
+}
+
+/* CONTACT */
+
+.contact-section {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  background-color: #6588a7;
+  color: white;
+}
+
+.section-header-contact {
+  width: 25%;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-flex form {
+  margin-left: 100px;
+}
+
+.contact-info {
+  width: 40%;
+}
+
+button {
+  background-color: #2a4371;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  border: 2px solid grey;
+  transition: 0.4s ease;
+}
+
+input:focus {
+  border: 2px solid white;
+}
+
+textarea {
+  resize: none;
+  width: 300px;
+  max-width: 95%;
+  height: 150px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 20px 25px 0;
+  
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #396a94;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: white;
+} 
